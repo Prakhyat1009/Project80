@@ -1,0 +1,45 @@
+<html>
+<head>
+	<title>Guest List</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+<script src="main.js"></script>
+
+</head>
+<body style="background-color:rgba(45, 187, 45, 0.767);">
+<center>
+<h3 style="margin-top: 20px; margin-bottom: 20px; font-size:30px; color: chartreuse;">
+	Guest List
+</h3>
+
+<div id="rows">
+
+<input type="text" placeholder="Enter name" id="name1" style="height:30px; font-size:20px;">
+<button onclick="submit()" id="submit_button" style="font-weight: bolder; background-color:rgba(45, 187, 45, 0.767); color: chartreuse; height:30px; font: size 20px;">Submit</button>
+<span>&nbsp;&nbsp;&nbsp;&nbsp;</span>
+	
+<hr>
+
+<div id="display_name" style="color: chartreuse; font-size:20px;">
+</div>
+<hr>
+	<div id="Show1"><h3 id="hd1" style="color: chartreuse; font-size:25px;">Guest List</h3>
+		<button onclick="show()" id="show" style="font-weight: bolder; background-color:rgba(45, 187, 45, 0.767); color: chartreuse; height:30px; font: size 20px;">Show</button>
+		<p id="p1" style="color: chartreuse; font-size:20px;"></p></div>
+	
+<hr>
+<button onclick="sorting()" id="sort_button" style="font-weight: bolder; background-color:rgba(45, 187, 45, 0.767); color: chartreuse; height:30px; font: size 20px;">
+	Sorted List
+</button>
+
+
+	<div id="sorted" style="color: chartreuse; font-size:20px;"></div>
+    </div>
+	<hr>
+	<input type="text" placeholder="Search name" id="s1" style="height:30px; font-size:20px;">&nbsp;
+	<button onclick="searching()" id="srch" style="font-weight: bolder; background-color:rgba(45, 187, 45, 0.767); color: chartreuse; height:30px; font: size 20px;">Search</button>
+	<p id="p2" style="color: chartreuse; font-size:20px;"></p>
+    
+</center>
+		
+</body>
+</html>
